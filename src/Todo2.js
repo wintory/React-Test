@@ -57,7 +57,7 @@ export class Todo extends Component {
   submitList = () =>{
 
     if(this.state.inputText===''||this.state.inputStatus===''){
-      alert("ใส่ให้ครบสิไอ่โง่");
+      alert("please input text่");
     }else{
 
     if(this.state.inputStatus ==='pass'){
